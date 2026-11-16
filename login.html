@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Entrar | Veline Cristelle</title>
+
+    <link rel="stylesheet" href="Login.cs">
+    <link rel="stylesheet" href="Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="imagem/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="barra" id="barra">
+        <div class="barra-conteudo">
+            <p>Entrega no mesmo dia e dia seguinte para Grande São Paulo</p>
+            <p>Termos e condições</p>
+        </div>
+
+        <button class="fechar" onclick="fecharBarra()">×</button>
+    </div>
+
+    <header>
+
+        <div class="esquerda">
+            <a href="#" class="link">
+                <span class="material-symbols-outlined">location_on</span>
+                Lojas
+            </a>
+        </div>
+
+        <a href="Veline.html" class="logo">
+            Veline Cristelle
+        </a>
+
+        <div class="direita">
+
+            <a href="#" class="link">
+                <span class="material-symbols-outlined">search</span>
+                Buscar
+            </a>
+
+            <button class="icone"><a href="bolsa.html">
+                    <span class="material-symbols-outlined">shopping_bag</span></a>
+            </button>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="login">
+
+            <div class="introducao">
+
+                <p class="titulo-menor">
+                    Área exclusiva
+                </p>
+
+                <h1>
+                    Entre na sua conta
+                </h1>
+
+                <p class="texto">
+                    Acesse seus pedidos, favoritos e informações
+                    da sua conta Veline Cristelle.
+                </p>
+
+            </div>
+
+            <form id="formulario">
+
+                <div class="redes">
+
+                    <button type="button">
+                        <span>G</span>
+                        Continuar com Google
+                    </button>
+
+                    <button type="button">
+                        <span>f</span>
+                        Continuar com Facebook
+                    </button>
+
+                </div>
+
+                <div class="divisao">
+                    ou
+                </div>
+
+                <div class="campo">
+
+                    <label for="email">E-mail</label>
+
+                    <input type="email" id="email" placeholder="Digite seu e-mail" autocomplete="email" required>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="senha">Senha</label>
+
+                    <div class="senha">
+
+                        <input type="password" id="senha" placeholder="Digite sua senha" autocomplete="current-password"
+                            required>
+
+                        <button type="button" onclick="mostrarSenha()">
+                            <span class="material-symbols-outlined" id="iconeSenha">
+                                visibility
+                            </span>
+                        </button>
+
+                    </div>
+
+                    <a href="esq.html" class="esqueci">
+                        Esqueci minha senha
+                    </a>
+
+                </div>
+
+                <button type="submit" class="entrar">
+                    <a href="Veline.html" class="link">ENTRAR</a> </button>
+
+                <p class="cadastro">
+                    Ainda não possui uma conta?
+                    <a href="Cadrasto.html">Criar conta</a>
+                </p>
+
+                <p class="privacidade">
+                    Ao continuar, você concorda com os
+                    <a href="#">Termos de Uso</a> e a
+                    <a href="#">Política de Privacidade</a>
+                    da Veline Cristelle.
+                </p>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-conteudo">
+            <div class="footer-coluna">
+                <h3>Atendimento ao cliente</h3>
+                <a href="#">Lojas</a>
+                <a href="#">Entre em contato</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Troca de devoluções</a>
+            </div>
+
+            <div class="footer-coluna">
+                <h3>Sobre a Veline Cristielle</h3>
+                <a href="#">Quem somos?</a>
+                <a href="#">Nossa história</a>
+            </div>
+
+            <div class="footer-coluna">
+                <h3>Redes sociais</h3>
+                <a href="#">Tiktok</a>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+
+        <div class="direitos">
+            © 2026 Veline Cristielle. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    </div>
+
+    <script>
+        function comecarComprar() {
+            alert("Vamos começar suas compras!");
+        }
+    </script>
+
+</body>
+
+</html>
